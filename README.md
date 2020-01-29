@@ -34,4 +34,4 @@ sh install.sh
 > Nice! We have installed the environment for today, so let's start a Jupyter Notebook
 - Return to your **Home** tab, and start a Jupyter Notebook with the *UvA Course kernel* by selecting **UvA Course** under **New** >> Notebook
 
-> Check if everything is installed correctly by typing `import tensorflow as tf; tf.__version__` in a cell and then press [SHIFT] [ENTER], it should output `1.15.0`
+> Check if everything is installed correctly by typing `import tensorflow as tf; print(tf.__version__)` in a cell and then press [SHIFT] [ENTER], it should output `1.15.0`
