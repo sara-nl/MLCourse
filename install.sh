@@ -25,7 +25,7 @@ module list
 
 # Creating virtualenv
 VIRTENV=UvA_Course
-VIRTENV_ROOT=${HOME}/virtualenvs/
+VIRTENV_ROOT=${HOME}/MLCourse/virtualenvs
 
 rm -rf $VIRTENV_ROOT/$VIRTENV
 
@@ -50,6 +50,7 @@ pip install tensorflow-gpu==1.15.0 --no-cache-dir
 echo "Installing Horovod"
 pip install horovod --no-cache-dir
 
+cd ${HOME}/MLCourse/virtualenvs
 python -m ipykernel install --user --name=$VIRTENV
 
 
