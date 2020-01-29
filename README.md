@@ -2,6 +2,9 @@
 
 Repository to host contents of the High Performance Machine Learning course within HPC & BIG DATA in 2020
 
+![alt text](https://github.com/sara-nl/MLCourse/blob/master/cartesius.jpeg)
+
+
 # Setup
 
 Start up a JupyterHub instance by going to the link:    
