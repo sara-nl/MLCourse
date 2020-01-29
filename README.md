@@ -2,6 +2,8 @@
 
 Repository to host contents of the High Performance Machine Learning course within HPC & BIG DATA in 2020
 
+![alt text](https://www.google.com/imgres?imgurl=https%3A%2F%2Fuserinfo.surfsara.nl%2Fsites%2Fdefault%2Ffiles%2FCartesius_0_0.jpg&imgrefurl=https%3A%2F%2Fuserinfo.surfsara.nl%2Fsystems%2Fcartesius&docid=hwVDhUi-ydJE7M&tbnid=KnWsYkzBqExjmM%3A&vet=10ahUKEwiu_eLAjannAhUkNOwKHRlTAEgQMwhCKAAwAA..i&w=1800&h=1200&bih=740&biw=1440&q=cartesius%20surfsara&ved=0ahUKEwiu_eLAjannAhUkNOwKHRlTAEgQMwhCKAAwAA&iact=mrc&uact=8)
+
 # Setup
 
 Start up a JupyterHub instance by going to the link:    
