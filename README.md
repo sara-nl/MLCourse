@@ -26,7 +26,7 @@ https://jupyter2.lisa.surfsara.nl/course
 git clone https://github.com/sara-nl/MLCourse.git
 ```
 > This will clone the repository in your /home/sdemoXXX directory
-- Go to the MLCourse directory and run install.sh:
+- Go to the MLCourse directory and run install.sh by typing the following commands:
 ```
 cd $HOME/MLCourse
 sh install.sh
