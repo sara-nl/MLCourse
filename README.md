@@ -9,15 +9,18 @@ Start up a JupyterHub instance by clicking the link:
 https://jupyter2.lisa.surfsara.nl/course
 ```
 - Login with your username sdemoXXX and password
-- Select the **uva_ml_course** from the dropdown menu
+- Select the **UvA course** from the dropdown menu
 - Wait for the server to be spawned...
 - Good to go!
 
 > We are going to use this JupyterHub instance on Lisa GPU for the practicals today. 
 
-- Now in the JupyterHub environment
+- Okay now, locate the dropdown button that says **New** in the top right corner, and start a Terminal window
+> Now your are in your /home/sdemoXXX directory within the JupyterHub environment
+- Clone this git repository in your home directory:
 
 ```
 git clone https://github.com/sara-nl/MLCourse.git
 ```
->This will clone the repository in your /home/sdemoXXX directory
+> This will clone the repository in your /home/sdemoXXX directory
+
