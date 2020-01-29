@@ -2,7 +2,8 @@
 
 Repository to host contents of the High Performance Machine Learning course within HPC & BIG DATA in 2020
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/sara-nl/MLCourse/blob/master/cartesius.jpeg)
+
 
 # Setup
 
