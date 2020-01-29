@@ -50,6 +50,9 @@ pip install tensorflow-gpu==1.15.0 --no-cache-dir
 echo "Installing Horovod"
 pip install horovod --no-cache-dir
 
+#Ipykernel
+pip install --user ipykernel
+
 cd ${HOME}/MLCourse/virtualenvs
 python -m ipykernel install --user --name=$VIRTENV
 
