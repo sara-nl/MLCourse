@@ -53,6 +53,16 @@ pip install horovod --no-cache-dir
 #Ipykernel
 pip install ipykernel
 
+# matplotlib
+pip install matplotlib
+pip install seaborn
+
+# pandas
+pip install pandas
+
+# keras
+pip install keras
+
 cd $VIRTENV_ROOT
 python -m ipykernel install --user --name=$VIRTENV
 
