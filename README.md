@@ -17,10 +17,16 @@ https://jupyter2.lisa.surfsara.nl/course
 
 - Okay now, locate the dropdown button that says **New** in the top right corner, and start a Terminal window
 > Now your are in your /home/sdemoXXX directory within the JupyterHub environment
-- Clone this git repository in your home directory:
+- Run the command below to clone this git repository in your home directory:
 
 ```
 git clone https://github.com/sara-nl/MLCourse.git
 ```
 > This will clone the repository in your /home/sdemoXXX directory
-
+- Go to the MLCourse directory and run install.sh:
+```
+cd $HOME/MLCourse
+sh install.sh
+```
+> Nice! We have installed the environment for today, so let's start a Jupyter Notebook
+- Return to your **Home** tab, and start a Jupyter Notebook with the *UvA Course kernel* by selecting **UvA Course** under **New** >> Notebook
