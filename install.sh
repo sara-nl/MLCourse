@@ -51,9 +51,9 @@ echo "Installing Horovod"
 pip install horovod --no-cache-dir
 
 #Ipykernel
-pip install --user ipykernel
+pip install ipykernel
 
-cd ${HOME}/MLCourse/virtualenvs
+cd $VIRTENV_ROOT
 python -m ipykernel install --user --name=$VIRTENV
 
 
