@@ -4,6 +4,9 @@ Repository to host contents of the High Performance Machine Learning course with
 
 ![alt text](https://github.com/sara-nl/MLCourse/blob/master/cartesius.jpeg)
 
+- If any problem persists, or you have a question you can send an email to:
+
+rubenh@surfsara.nl | maxwell.cai@surfsara.nl  
 
 # Setup
 
@@ -37,8 +40,4 @@ sh install.sh
 > Check if everything is installed correctly by typing `import tensorflow as tf; print(tf.__version__)` in a cell, and then run the cell by pressing [SHIFT] [ENTER], it should output `1.15.0`
 
 
-- If any problem persists, or you have a question you can send an email to:
-
-- rubenh@surfsara.nl  
-- maxwell.cai@surfsara.nl  
 
