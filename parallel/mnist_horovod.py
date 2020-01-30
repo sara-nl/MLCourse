@@ -13,7 +13,7 @@ for gpu in gpus:
 if gpus:
     tf.config.experimental.set_visible_devices(gpus[hvd.local_rank()], 'GPU')
 
-(mnist_images, mnist_labels), _ = \
+(mnist_images, mnist_labels), (mnist_test, mnist_test) = \
     tf.keras.datasets.mnist.load_data(path='mnist-%d.npz' % hvd.rank())
 
 dataset = tf.data.Dataset.from_tensor_slices(
@@ -77,3 +77,7 @@ for batch, (images, labels) in enumerate(dataset.take(10000 // hvd.size())):
 if hvd.rank() == 0:
     checkpoint.save(checkpoint_dir)
 
+# See validation accuracy
+score = mnist_model.evaluate(mnist_test, mnist_test, verbose=0)
+print('Test loss:', score[0])
+print('Test accuracy:', score[1])
