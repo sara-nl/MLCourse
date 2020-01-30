@@ -77,7 +77,7 @@ for batch, (images, labels) in enumerate(dataset.take(10000 // hvd.size())):
 if hvd.rank() == 0:
     checkpoint.save(checkpoint_dir)
 
-# See validation accuracy
+# Check test accuracy
 score = mnist_model.evaluate(mnist_images_test, mnist_labels_test, verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
