@@ -38,8 +38,7 @@ sh install.sh
 
 
 - If any problem persists, or you have a question you can send an email to:
-| email |
-|------|
-|   rubenh@surfsara.nl  | 
-|   maxwell.cai@surfsara.nl  | 
+
+- rubenh@surfsara.nl  
+- maxwell.cai@surfsara.nl  
 
