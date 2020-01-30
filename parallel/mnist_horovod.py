@@ -77,7 +77,10 @@ for batch, (images, labels) in enumerate(dataset.take(10000 // hvd.size())):
 if hvd.rank() == 0:
     checkpoint.save(checkpoint_dir)
 
-# Check test accuracy
-score = mnist_model.evaluate(mnist_images_test, mnist_labels_test, verbose=0)
+mnist_model.compile(loss=loss,optimizer=opt, metrics=['accuracy'])
+
+# Check test accuracy, first add dimension and cast to tf.float16
+score = mnist_model.evaluate(tf.cast(mnist_images_test[...,tf.newaxis],tf.float16),tf.cast(mnist_labels_test[...,tf.newaxis],tf.float16), verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
+
